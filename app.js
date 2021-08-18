@@ -10,8 +10,8 @@ const publicPath = path.resolve(__dirname,'./public');
 
 app.use(express.static(publicPath));
 
-app.listen(process.env.PORT || 3000, function{
-    console.log("si corrio 3000")
+app.listen(process.env.PORT || 3000, function(){
+    console.log("si corrio 3000");
     });
 
 app.get('/', (req, res)=>{
