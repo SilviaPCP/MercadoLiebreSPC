@@ -1,0 +1,246 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAC926;
+    font-size: 12px;
+}
+
+* {
+    margin: 0 px ;
+    padding: 0 px ;
+    box-sizing: border-box ;
+    }
+
+
+div.last,
+div.offers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav{
+    font-size: 12px;
+    margin-left: 20px;
+    
+}
+
+p{
+    text-align: center;
+}
+
+.burger-menu{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+    margin: auto;
+}
+
+
+main section article .camion{
+    display: block ;
+    font-size: 16 px ;
+    padding: 5 px ;
+    width: 30 px ;
+    height: 30 px ;
+    border: 1 px solid #39b54a ;
+    background-color: #FFF ;
+    border-radius: 50 % ;
+    right: 20 px ;
+    top: -15 px ;
+    }
+
+    .camion{
+        width: fit-content;
+        padding: 10px;
+        border-radius: 50%;
+        border:solid 1px green;
+        color: green;
+        margin: auto;
+    } 
+
+article{
+        position: relative;
+        background-color: #fff;
+        align-items: stretch;
+        margin: 10px 0px;
+        border-radius: 5%;
+        transition-property: all;
+        transition-duration: 5ms;
+
+    }
+
+article:hover {
+   box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+article:hover .desLet{
+
+     display: block;
+}
+
+
+.logo{
+    width: 33%;
+}
+
+article .desLet{
+    display: none;
+}
+
+footer{
+    background-color: white;
+    padding: 30px;
+
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+footer i{
+    color: rgb(99, 99, 221);
+    transition-property: all;
+    transition-duration: 20ms;
+}
+
+footer i:hover{
+    color: rgb(7, 7, 122);
+    transition: color, 0.5s, color, 0.5s; 
+}
+
+
+.centro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 15px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    }
+
+.titulo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titulo div{
+    padding: 15px;
+}
+
+.navega{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+.registro{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+
+.precios {
+    font-size: 18px;
+    visibility: visible;
+}
+.descuento{
+    color: #39b54a;
+}
+
+.descPre{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+.descPre div{
+    padding: 10px;
+}
+
+
+li {
+    list-style-type: none;
+    text-decoration-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+main{
+    width: 100%;
+    text-align: center;
+    background-color:#ebebeb;
+    position: relative;
+
+}
+
+.banner img{
+    width: 100%;
+}
+
+
+.articulos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 15px;
+}
+
+
+@media (min-width:361px){
+    .articulos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    div.articulos article{
+        width: 45%;
+    }
+    header nav{
+        display: none;
+    }
+}
+       
+
+@media (min-width: 769px){
+    main section div.articulos article{
+        width: 22%;
+    }
+    header nav{
+        display: contents;
+    }
+}

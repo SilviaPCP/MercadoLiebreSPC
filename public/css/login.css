@@ -1,0 +1,40 @@
+
+
+.enviar {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    transition-property: background-color, color;
+    transition-duration: 20ms;
+}
+
+.enviar:hover{
+    color: white;
+    background-color: #0022AA;
+    transition: background-color, 0.5s, color, 0.5s;  
+}
+
+.borrar {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    transition-property: background-color, color;
+    transition-duration: 20ms;
+}
+
+
+.borrar:hover{
+    color: white;
+    background-color: #0022AA;
+    transition: background-color, 0.5s, color, 0.5s;  
+}
+
+.entrar{
+    background-color: #ebebeb ;
+    width: 100%;
+    padding: 20px;
+    display:block;
+    margin: auto;
+    line-height: 50%;
+    text-align: center;
+}
